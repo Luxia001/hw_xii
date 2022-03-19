@@ -48,19 +48,19 @@ class _PinPageState extends State<loginpage> {
 
                       Icons.lock,         // รูปไอคอน
                       size: 50.0,           // ขนาดไอคอน
-                      color: Colors.black,   // สีไอคอน
+                      color: Colors.amber,   // สีไอคอน
                     ),
                     Padding(
                       padding: const EdgeInsets.all(0.2),
 
                       child: Text("LOGIN",style: TextStyle(
-                          fontSize: 32.0, color: Colors.black)),
+                          fontSize: 32.0, color: Colors.white)),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(0.2),
 
                       child: Text("Enter pin to login",style: TextStyle(
-                          fontSize: 12.0, color: Colors.black)),
+                          fontSize: 12.0, color: Colors.white)),
                     ),
                   ],
                 ),
